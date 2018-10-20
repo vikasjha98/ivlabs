@@ -1,8 +1,11 @@
 #include<stdio.h>
+#include"mymath.h"
 
 int main()
 {
-	printf("Hello World\n");
+	int a = 10, b = 5;
+	int c = add(a,b);
+	printf("%d\n",c);
 	return 0;
 
 }
