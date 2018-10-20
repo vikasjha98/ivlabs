@@ -10,7 +10,14 @@ int main()
 	int d = subtract(a,b);
 	printf("%d\n",d);
 	
+
 	printf("Hello from master\n");
+	int e = multiply(a,b);
+	printf("%d\n",e);
+	
+	int f = divide(a,b);
+	printf("%d\n",f);
+
 	
 	return 0;
 
