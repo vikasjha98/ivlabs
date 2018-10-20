@@ -10,6 +10,8 @@ int main()
 	int d = subtract(a,b);
 	printf("%d\n",d);
 	
+	printf("Hello from master\n");
+	
 	return 0;
 
 }
